@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main className="flex min-h-[calc(100vh-5rem)] flex-col items-center justify-between py-12">
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex p-2">
-        <p className="flex w-full p-2 justify-center pb-6 pt-8 lg:w-auto rounded-xl border">
+        <p className="flex w-full p-2 justify-center lg:w-auto rounded-xl border">
           Get started by editing&nbsp;
           <code className="font-mono font-bold">src/app/(marketing)/page.tsx</code>
         </p>
