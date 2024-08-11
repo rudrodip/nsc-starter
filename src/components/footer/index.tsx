@@ -37,7 +37,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="flex gap-12 md:w-auto w-full">
+        <div className="flex gap-12 justify-between md:justify-start md:w-auto w-full">
           <div className="space-y-3 text-muted-foreground flex flex-col md:items-end">
             <h1 className="text-primary">Products</h1>
             <Link
@@ -59,7 +59,7 @@ export default function Footer() {
               Example
             </Link>
           </div>
-          <div className="space-y-3 text-muted-foreground flex flex-col md:items-end">
+          <div className="space-y-3 text-muted-foreground flex flex-col md:items-end text-right md:text-left">
             <h1 className="text-primary">Company</h1>
             <Link
               href="/about"
