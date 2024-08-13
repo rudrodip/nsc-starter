@@ -93,7 +93,7 @@
 }
 
 .head-text-md {
-  @apply text-xl md:text-2xl lg:text-3xl font-bold font-heading tracking-tight leading-[1.5];
+  @apply text-2xl md:text-4xl lg:text-5xl font-bold font-heading tracking-tight leading-[1.5];
 }
 
 .head-text-sm {
